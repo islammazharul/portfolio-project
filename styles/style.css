@@ -9,7 +9,7 @@
 .banner{
     text-align: center;
     background-image: url('../images/donation13.jpg');
-    background-color: lightgray;
+    background-color: rgb(66, 65, 65);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 150px;
@@ -18,11 +18,17 @@
 .banner-title{
     color: white;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.banner-description{
+    color: rgb(211, 215, 219);
+    font-size: 18px;
+    margin-bottom: 30px;
     margin-top: 30px;
 }
 .description{
-    color: #555353;
+    color: #6d6a6a;
     font-size: 18px;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -34,6 +40,8 @@
     border-radius: 5px;
     border: 0;
     color: white;
+    font-size: 20px;
+    font-weight: 700;
 }
 .donate{
     text-align: center;
@@ -71,13 +79,16 @@
 /* .donate-taka{
     padding: 20px 300px;
 } */
-hr{
-    width: 48%;
+/* hr{
+    width: 35%;
     margin: 5px auto 20px;
     color: #ffffff;
-}
+} */
 h6{
     color: #d3d0d0;
+    border-bottom: 1px solid;
+    border-width: 40%;
+    margin-bottom: 30px;
 }
 .donate-items{
     display: flex;
@@ -127,4 +138,35 @@ h6{
 }
 .image-a img{
     border-radius: 5px;
+}
+/* .info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+.form{
+    background-color: #e0daa4;
+    margin: 30px 600px 50px;
+    border-radius: 5px;
+    padding: 40px 100px 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.btn-email{
+    padding: 15px 100px 15px 10px;
+    background-color: #d8d5d5fd;
+    border: 0;
+    border-radius: 5px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-title{
+    color: red;
+    font-family: cursive;
 }
